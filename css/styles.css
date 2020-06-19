@@ -1,0 +1,154 @@
+
+
+body{
+  font-family: "Montserrat"
+}
+
+#title{
+  background-color: #ff4c68;
+  color: white;
+}
+h1{
+  font-family: "Montserrat-black";
+  font-size:3.8rem;
+  line-height: 1.5;
+
+}
+h2{
+  font-family: "Montserrat-Bold";
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+h3{
+  font-family: "Montserrat-Bold";
+}
+p{
+  color:#8f8f8f;
+}
+.container-fluid{
+  padding: 3% 15% 14%;
+
+}
+/* navigationBAR */
+.navbar-brand{
+  font-family: "Ubuntu";
+  font-size: 2.3rem;
+  font-weight: bolder;
+}
+.navbar{
+  padding:0 0 3.5rem;
+
+}
+.nav-item{
+  padding: 0 18px;
+}
+.nav-link{
+  font-size: 1.2rem;
+  font-family: "Montserrat-Light"
+}
+/* button */
+.Download-button{
+  margin: 5% 3% 5% 0;
+}
+/* IMAGE */
+
+.dog-image{
+  width: 60%;
+  transform: rotate(25deg);
+  position: absolute;
+  right: 30%;
+
+}
+
+/* Middle one features */
+#features{
+  padding: 7% 15%;
+  position: relative;
+  background-color: #fff;
+}
+.features-box{
+  text-align: center;
+  padding: 5%;
+}
+.icon{
+  color: #ef8172;
+  margin-bottom: 1rem;
+}
+
+.icon:hover{
+  color:  #ff4c68;
+}
+/* Testimonials */
+#testimonials{
+
+  text-align: center;
+  background-color: #ef8172;
+  color: white;
+}
+.carousel-item{
+  padding:7% 18%;
+}
+.testimonials-img{
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+/* PRESS */
+#press{
+  text-align: center;
+  background-color: #ef8172;
+  padding-bottom: 3%;
+
+}
+.press-image{
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+/* PRICE */
+#pricing {
+  padding: 100px;
+  text-align: center;
+}
+.h3-second{
+  font-size: 2rem;
+}
+.pricing-col{
+  padding: 3% 2%;
+}
+/* MEDIA QYERY */
+@media (max-width:1028px) {
+  #title{
+    text-align: center;
+  }
+  .dog-image{
+    position: static;
+    transform:rotate(0);
+  }
+
+}
+/* CTA */
+#cta{
+  background-color:  #ff4c68;
+  padding: 7% 18%;
+  text-align:center;
+
+  color: white;
+
+}
+.bold{
+  font-family: "Montserrat-Black";
+  font-size: 3.4rem;
+  line-height: 1.5;
+}
+/* FOOTER */
+#footer{
+  padding: 7% 18%;
+  text-align: center;
+}
+.social-media{
+  margin: 20px 10px;
+  font-size: 2rem;
+  
+
+
+}
