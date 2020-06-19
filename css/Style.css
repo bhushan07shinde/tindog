@@ -1,0 +1,61 @@
+
+/* slider and image */
+.para{
+  padding: 20% 18%;
+
+}
+.para-2{
+  padding: 15% 15%;
+  text-align: center;
+}
+.para-3{
+  padding: 22% 18%;
+}
+img{
+ max-height: 700px;
+  opacity: 0.4;
+
+}
+
+
+.slider{
+  background-color:black;
+  color: inherit;
+
+
+}
+h1{
+  font-family: 'PT Serif', serif;
+
+}
+p{
+  font-family: 'Noto Serif JP', serif;
+  font-size: 20px;
+  
+}
+
+/* navigation bar */
+.ready{
+  color: #79d70f !important;
+  font-size:20px  !important;
+}
+a:hover{
+  color: #79d70f !important;
+}
+.box{
+  font-size: 20px !important;
+  color: white !important;
+}
+.nav-link{
+  margin:10px;
+}
+.pritu{
+  font-size: 50px !important;
+  color: white !important;
+  margin-left: 4rem;
+  font-family: 'Playball', cursive;
+}
+i{
+  color: #79d70f;
+  margin-bottom: 100px;
+}
